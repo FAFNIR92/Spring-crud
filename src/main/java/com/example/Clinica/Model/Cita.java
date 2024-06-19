@@ -19,7 +19,7 @@ public class Cita {
     @ManyToOne
     @JoinColumn(name = "medico_id")
     private Medico medico;
-
+    @Column
     private LocalDateTime fecha;
 
     public long getId() {
